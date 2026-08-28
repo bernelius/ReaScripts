@@ -1,2 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Bernelius Scripts"/>
+<index version="1" name="Bernelius Scripts" commit="43e75cf5ce04d497ee39fe628d655a5039ce9a00">
+  <category name="scripts">
+    <reapack name="bounce_auto_align_2.lua" type="script" desc="a convenience script to make auto-align 2 workflow much faster with drum multitracks">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 bounce_auto_align_2.lua bounces all child tracks of a selected folder, on the conditions that they have: 1: an input channel assigned 2: at least one plugin 3: they do not have "stem" in the name\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.6" author="bernelius" time="2026-08-28T17:42:26Z">
+        <source main="main">https://github.com/bernelius/ReaScripts/raw/43e75cf5ce04d497ee39fe628d655a5039ce9a00/scripts/bounce_auto_align_2.lua</source>
+      </version>
+    </reapack>
+    <reapack name="track_cleanup.lua" type="script" desc="simple track cleanup script">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 : deletes any track that is empty, has no name, has no fx, is not a parent folder, and has no sends/receives. renames (send/recv) and recolors any empty track that has active sends or receives but apart from that fits the first condition. renames (FOLDER) and recolors any folder without a name, that meet the previous conditions. changes color and adds prefix NOMEDIA to any track without sends/receives that has active fx but no media on the timeline.\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.0" author="bernelius" time="2026-08-28T17:42:26Z">
+        <source main="main">https://github.com/bernelius/ReaScripts/raw/43e75cf5ce04d497ee39fe628d655a5039ce9a00/scripts/track_cleanup.lua</source>
+      </version>
+    </reapack>
+  </category>
+</index>
