@@ -1,0 +1,3 @@
+[submodule "stubs/vscode-reascript-extension"]
+	path = stubs/vscode-reascript-extension
+	url = https://github.com/AntoineBalaine/vscode-reascript-extension.git

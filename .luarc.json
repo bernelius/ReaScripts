@@ -1,0 +1,11 @@
+{
+  "runtime.version": "Lua 5.4",
+  "diagnostics.globals": ["reaper"],
+  "diagnostics.libraryFiles": "Disable",
+  "workspace": {
+    "library": [
+      "${workspaceFolder}/stubs/vscode-reascript-extension/resources"
+    ],
+    "checkThirdParty": false
+  }
+}
