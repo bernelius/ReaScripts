@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Bernelius Scripts" commit="ea103bfbd230d9bc5ca161470afb011e1d60e330">
+<index version="1" name="Bernelius Scripts" commit="c189ff64e511b8f15a161476e8eb701b028b052b">
   <category name="scripts">
-    <reapack name="bounce_auto_align_2.lua" type="script" desc="a convenience script to make auto-align 2 workflow much faster with drum multitracks">
+    <reapack name="bounce_auto_align_2.lua" type="script" desc="makes auto-align 2 workflow on drum multitracks less of a pain">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
-{\pard \ql \f0 \sa180 \li0 \fi0 bounce_auto_align_2.lua bounces all child tracks of a selected folder, on the conditions that they have: 1: an input channel assigned 2: at least one plugin 3: they do not have "stem" in the name\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 a convenience script to make auto-align 2 workflow much faster with drum multitracks bounce_auto_align_2.lua bounces all child tracks of a selected folder, on the conditions that they have: 1: an input channel assigned 2: at least one plugin 3: they do not have "stem" in the name\par}
 }
 ]]></description>
       </metadata>
       <version name="1.6" author="bernelius" time="2026-08-28T17:44:41Z">
         <source main="main">https://github.com/bernelius/ReaScripts/raw/ea103bfbd230d9bc5ca161470afb011e1d60e330/scripts/bounce_auto_align_2.lua</source>
+      </version>
+    </reapack>
+    <reapack name="make_child_tracks.lua" type="script" desc="a script to create child tracks for each selected track">
+      <version name="1.0" author="bernelius" time="2026-11-06T19:51:02Z">
+        <source main="main">https://github.com/bernelius/ReaScripts/raw/c189ff64e511b8f15a161476e8eb701b028b052b/scripts/make_child_tracks.lua</source>
       </version>
     </reapack>
     <reapack name="track_cleanup.lua" type="script" desc="simple track cleanup script">
