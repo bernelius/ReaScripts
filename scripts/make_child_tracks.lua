@@ -1,4 +1,6 @@
--- Make child tracks of all selected tracks
+-- @description a script to create child tracks for each selected track
+-- @version 1.0
+-- @author bernelius
 
 local count = reaper.CountSelectedTracks(0)
 

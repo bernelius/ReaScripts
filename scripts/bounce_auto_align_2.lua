@@ -1,7 +1,8 @@
--- @description a convenience script to make auto-align 2 workflow much faster with drum multitracks
+-- @description makes auto-align 2 workflow on drum multitracks less of a pain
 -- @version 1.6
 -- @author bernelius
 -- @about
+--   a convenience script to make auto-align 2 workflow much faster with drum multitracks
 --   bounce_auto_align_2.lua
 --   bounces all child tracks of a selected folder, on the conditions that they have:
 --   1: an input channel assigned
