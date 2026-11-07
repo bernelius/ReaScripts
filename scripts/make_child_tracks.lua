@@ -23,7 +23,8 @@ for _, track in ipairs(tracks) do
     local _, name = reaper.GetTrackName(track)
     local parent = {
         track = track,
-        idx = reaper.GetMediaTrackInfo_Value(track, "IP_TRACKNUMBER"),
+        -- track_number is not 0-based
+        idx = reaper.GetMediaTrackInfo_Value(track, "IP_TRACKNUMBER") - 1,
         name = name,
     }
 
@@ -35,7 +36,7 @@ for _, track in ipairs(tracks) do
     child.track = reaper.GetTrack(0, child.idx)
     reaper.GetSetMediaTrackInfo_String(child.track, "P_NAME", child.name, true)
     reaper.SetTrackSelected(child.track, true)
-    reaper.ReorderSelectedTracks(parent.idx, 1)
+    reaper.ReorderSelectedTracks(child.idx, 1)
     reaper.SetTrackSelected(child.track, false)
 end
 
